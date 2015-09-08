@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0PGEUFXHEeWnA5yWSPHghA" name="RootElement">
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_56gvAFXHEeWnA5yWSPHghA" name="start the engine">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_EwTz4FXIEeWnA5yWSPHghA" name=""/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6kECUFXHEeWnA5yWSPHghA" name="use GPS services via satellite to analyse the traffic informations"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_6-IvMFXHEeWnA5yWSPHghA" name="update the user regardingtraffic and basicprecautions to be taken"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7LkHMFXHEeWnA5yWSPHghA" name="control over the steering rotation"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7aPcYFXHEeWnA5yWSPHghA" name="maintain healthy connection with central system"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Hp5asFXJEeWnA5yWSPHghA" name="sensing the irresponsible driving and alarm the driver"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_OxfvgFXJEeWnA5yWSPHghA" name="stolen vehicle recovery"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VrV8MFXJEeWnA5yWSPHghA" name="ride-share availability with help of car pooling to decrease traffic"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_3Ju-kFXJEeWnA5yWSPHghA" name="finding parking spots"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_7MH18FXJEeWnA5yWSPHghA" name="music and entertainment"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="__2UUMFXJEeWnA5yWSPHghA" name="stop the car"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_EuNQMFXKEeWnA5yWSPHghA" name="user"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KkwM0FXKEeWnA5yWSPHghA" memberEnd="_KlDu0FXKEeWnA5yWSPHghA _KlEV4FXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Kk1FUFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Kk1sYFXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KlDu0FXKEeWnA5yWSPHghA" name="start the engine" type="_56gvAFXHEeWnA5yWSPHghA" association="_KkwM0FXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KlEV4FXKEeWnA5yWSPHghA" name="user" type="_EuNQMFXKEeWnA5yWSPHghA" association="_KkwM0FXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_P9jdgFXKEeWnA5yWSPHghA" memberEnd="_P9l5wFXKEeWnA5yWSPHghA _P9mg0FXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_P9kEkFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_P9kroFXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_P9l5wFXKEeWnA5yWSPHghA" name="stop the car" type="__2UUMFXJEeWnA5yWSPHghA" association="_P9jdgFXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_P9mg0FXKEeWnA5yWSPHghA" name="user" type="_EuNQMFXKEeWnA5yWSPHghA" association="_P9jdgFXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_UKoh8FXKEeWnA5yWSPHghA" name="navigator"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YGodcFXKEeWnA5yWSPHghA" memberEnd="_YGqSoVXKEeWnA5yWSPHghA _YGrgwFXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YGprkFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YGqSoFXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YGqSoVXKEeWnA5yWSPHghA" name="use gps services via satellite to analyse the traffic informations" type="_6kECUFXHEeWnA5yWSPHghA" association="_YGodcFXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YGrgwFXKEeWnA5yWSPHghA" name="navigator" type="_UKoh8FXKEeWnA5yWSPHghA" association="_YGodcFXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YzEssFXKEeWnA5yWSPHghA" memberEnd="_YzHI8FXKEeWnA5yWSPHghA _YzHwAFXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YzF60FXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YzGh4FXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YzHI8FXKEeWnA5yWSPHghA" name="update the user regardingtraffic and basicprecautions to be taken" type="_6-IvMFXHEeWnA5yWSPHghA" association="_YzEssFXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YzHwAFXKEeWnA5yWSPHghA" name="navigator" type="_UKoh8FXKEeWnA5yWSPHghA" association="_YzEssFXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_alVUgFXKEeWnA5yWSPHghA" name="data communications"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eSx2oFXKEeWnA5yWSPHghA" memberEnd="_eS0S4FXKEeWnA5yWSPHghA _eS058FXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eSzEwFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eSzr0FXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eS0S4FXKEeWnA5yWSPHghA" name="control over the steering rotation" type="_7LkHMFXHEeWnA5yWSPHghA" association="_eSx2oFXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eS058FXKEeWnA5yWSPHghA" name="data communications" type="_alVUgFXKEeWnA5yWSPHghA" association="_eSx2oFXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_exiPMFXKEeWnA5yWSPHghA" memberEnd="_exkEYFXKEeWnA5yWSPHghA _exkrcFXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_exjdUFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_exjdUVXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_exkEYFXKEeWnA5yWSPHghA" name="maintain healthy connection with central system" type="_7aPcYFXHEeWnA5yWSPHghA" association="_exiPMFXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_exkrcFXKEeWnA5yWSPHghA" name="data communications" type="_alVUgFXKEeWnA5yWSPHghA" association="_exiPMFXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_favkQFXKEeWnA5yWSPHghA" memberEnd="_fawyYVXKEeWnA5yWSPHghA _faxZcFXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fawLUFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fawyYFXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fawyYVXKEeWnA5yWSPHghA" name="sensing the irresponsible driving and alarm the driver" type="_Hp5asFXJEeWnA5yWSPHghA" association="_favkQFXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_faxZcFXKEeWnA5yWSPHghA" name="data communications" type="_alVUgFXKEeWnA5yWSPHghA" association="_favkQFXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jJwzsFXKEeWnA5yWSPHghA" name="info and entertainment"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lPS80FXKEeWnA5yWSPHghA" memberEnd="_lPVZEVXKEeWnA5yWSPHghA _lPWnMFXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lPUyAFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lPVZEFXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lPVZEVXKEeWnA5yWSPHghA" name="stolen vehicle recovery" type="_OxfvgFXJEeWnA5yWSPHghA" association="_lPS80FXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lPWnMFXKEeWnA5yWSPHghA" name="info and entertainment" type="_jJwzsFXKEeWnA5yWSPHghA" association="_lPS80FXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_lyODsFXKEeWnA5yWSPHghA" memberEnd="_lyP44FXKEeWnA5yWSPHghA _lyQf8FXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lyOqwFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lyPR0FXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lyP44FXKEeWnA5yWSPHghA" name="ride-share availability with help of car pooling to decrease traffic" type="_VrV8MFXJEeWnA5yWSPHghA" association="_lyODsFXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_lyQf8FXKEeWnA5yWSPHghA" name="info and entertainment" type="_jJwzsFXKEeWnA5yWSPHghA" association="_lyODsFXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n0bzEFXKEeWnA5yWSPHghA" memberEnd="_n0doQFXKEeWnA5yWSPHghA _n0ePUFXKEeWnA5yWSPHghA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n0caIFXKEeWnA5yWSPHghA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n0dBMFXKEeWnA5yWSPHghA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n0doQFXKEeWnA5yWSPHghA" name="finding parking spots" type="_3Ju-kFXJEeWnA5yWSPHghA" association="_n0bzEFXKEeWnA5yWSPHghA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_n0ePUFXKEeWnA5yWSPHghA" name="info and entertainment" type="_jJwzsFXKEeWnA5yWSPHghA" association="_n0bzEFXKEeWnA5yWSPHghA"/>
+  </packagedElement>
+</uml:Model>
